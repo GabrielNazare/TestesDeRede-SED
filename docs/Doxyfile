@@ -1,0 +1,27 @@
+
+PROJECT_NAME           = "Handover Simulator"
+PROJECT_NUMBER         = "2.0.0"
+PROJECT_BRIEF          = "3GPP-compliant LTE Handover Discrete Event Simulator"
+
+OUTPUT_DIRECTORY       = docs/html
+INPUT                  = ../simulator/include ../simulator/src ../jni
+RECURSIVE              = YES
+FILE_PATTERNS          = *.h *.cpp *.java
+
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+
+HTML_COLORSTYLE_HUE    = 220
+HTML_COLORSTYLE_SAT    = 100
+HTML_COLORSTYLE_GAMMA  = 80
+
+USE_MDFILE_AS_MAINPAGE = ../README.md
+
+HAVE_DOT               = NO
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+OPTIMIZE_OUTPUT_FOR_C  = NO

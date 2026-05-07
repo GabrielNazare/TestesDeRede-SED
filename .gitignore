@@ -1,0 +1,30 @@
+# Build artifacts
+build/
+output/
+simulator/build/
+simulator/output_sample/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Analysis output
+analysis/figures/
+analysis/__pycache__/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Docker
+*.tar
