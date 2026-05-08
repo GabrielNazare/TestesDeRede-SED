@@ -28,3 +28,9 @@ Thumbs.db
 
 # Docker
 *.tar
+
+# Relatórios e resultados de testes
+playwright-report/
+test-results/
+coverage/
+htmlcov/

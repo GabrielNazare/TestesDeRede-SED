@@ -1,0 +1,6 @@
+# Ignora todos os arquivos HTML das estatísticas de linguagem
+*.html linguist-detectable=false
+# Se tiver pastas específicas de relatórios ou docs, marque-as como vendored
+coverage/* linguist-vendored
+playwright-report/* linguist-vendored
+docs/* linguist-vendored
